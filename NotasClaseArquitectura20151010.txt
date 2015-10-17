@@ -12,3 +12,23 @@ Clase arquitectura de software.
 	- formales (sujetas a pruebas matematicas (sysML)) (TAO )
 
 "El arquitecto evangeliza sobre el uso de estándares y tecnologia"
+- Software architecture agile approch - recomendado.
+
+NOTACION UML
+
+3 tipos de vistas: 
+		- tipo modulo
+		- componentes y conectores
+		- esplazamiento
+
+Un modulo es un package: Es una estrucutra lógico funcional del sistema. Los package contienen componentes.
+Componentes estan dirigadas a implementacion y no a figuras fucnionales.
+Componentes (servidor, base de datos, proxy, message brokker).
+Modulo package (todo lo que tiene que ver con registro, investivacion, etc.)
+
+Caso ATIA-M
+Primer top level es el diagrama de contexto
+
+Para el taller: Si es necesario documentar de donde esta extendiendo la arquitectura. (firebase)
+				esto tiene que quedar explicito en el diseño de la arquitectura
+

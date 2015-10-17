@@ -6,10 +6,10 @@ angular.module('chatusb', [])
 		function autoDataCallback(authData) {
 			if(authData) {
 				nombreUsuario = authData.password.email
-				console.log("Usuario " +  authData.password.email + " esta logeado.");
+				console.log("Usuario " +  authData.password.email + " esta logueado.");
 			}else{
 				$window.location.href = 'login.html'
-				console.log("El usuario no esta logeado");
+				console.log("El usuario no esta logueado");
 			}
 		}
 
@@ -41,14 +41,8 @@ angular.module('chatusb', [])
 			$scope.mensaje = '';
 		}
 
-		
 		$scope.salir = function() {
 			objFirebase.unauth();
 		}
 
-/*
-		$interval( function(){
-        	$scope.$apply();
-    	}, 7000 );
-*/
 	});

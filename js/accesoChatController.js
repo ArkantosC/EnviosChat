@@ -4,9 +4,9 @@ angular.module('accesochat', [] )
 		function autoDataCallback(authData) {
 			if(authData) {
 				$window.location.href = 'indexAngular.html'
-				console.log("Usuario " +  authData.password.email + " esta logeado.");
+				console.log("Usuario " +  authData.password.email + " esta logueado.");
 			}else{
-				console.log("El usuario no esta logeado");
+				console.log("El usuario no esta logueado");
 			}
 		}
 

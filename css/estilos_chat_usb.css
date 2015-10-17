@@ -9,19 +9,25 @@ body
 	background: url("../img/background.png") ;
 	height: 538px;
 	width: 335px;
-	padding: 49px 25px 10px 25px;
+	padding: 45px 25px 10px 25px;
 	margin: auto;
 	position:relative;
 }
 
+
 #viewport{
 	overflow-x:scroll;
-	height: 420px;
+	height: 400px;
 }
 
 #viewport-content{
 	position: relative;
-	bottom: -10px;
+	bottom: -30px;
+}
+
+#viewlogin-content{
+	position: relative;
+	bottom: -100px;
 }
 
 .row-chat{

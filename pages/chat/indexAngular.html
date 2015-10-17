@@ -9,11 +9,18 @@
 
     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js'></script>
-	<script src="../../js/chatAngular.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/spin.js/1.2.7/spin.min.js"></script>
+ 
+	<script src="../../js/chatAngularController.js"></script>
 </head>
 <body>
 	<section>
 		<div id='browser-window' ng-controller='chatAngularController'>
+			<div >  	
+				<input class='btn btn-info' type="file" accept="image/*" capture="camera" id="file-upload" style="display: none;">
+	  					
+	  		</div>
+
 			<div id='viewport'>
 				<div id='viewport-content'>
 					<div class='bubble-container' ng-repeat='m in mensajes'>
@@ -29,10 +36,20 @@
 	  			<span class='input-group-btn'>	
 	  				<input type='submit' id='btnEnviar' value="Enviar" 
 	  						ng-click='enviar()' class='btn btn-primary'> 
-	  			</span>
+
+					</span>
 	 		</div>
 
-	 		<div class='input-group'>  	
+	 		<div class='input-group'>  
+
+	 			<span class='input-group-btn'>
+	 		 		<input class='btn btn-link' type="button" value="Imagen" onclick="document.getElementById('file-upload').click();" />
+	 		 	</span>
+
+				<span class='input-group-btn'>
+	 		 		<input type='submit' id='btnEnviar' value="Mapa"  class='btn btn-link'> 
+				</span>
+
 	 			<span class='input-group-btn'>	
 					<input type='submit' id='btnSalir' value="Salir" 
 	  						ng-click='salir()' class='btn btn-link'> 

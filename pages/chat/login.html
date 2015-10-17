@@ -8,23 +8,28 @@
 
     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js'></script>
-    <script src="../../js/acceso.js"></script>
+    <script src="../../js/accesoChatController.js"></script>
 </head>
 <body>
  	<section>
  		<div id="browser-window" ng-controller='accesoChatController'>
  			<form>
-			 <div class="input-group">
-				<input type='text' ng-model='email' placeholder='Email' class='form-control' required>	
- 				<input type="password" ng-model='password' placeholder="Password" class="form-control" required>
-              </div>                          
+ 				<div id='viewport'>
+ 					<div id='viewlogin-content'>
+						 <div class="form-group">
+						 	<label  form="email">Email</label>
+							<input type='text' ng-model='email' class='form-control' required>	
+			 			 </div>    
 
-			  <div class="input-group">
-				<input type='submit' id='btnEnviar' value="Iniciar sesión" 
-	  						ng-click='iniciar_sesion()' class='btn btn-primary'> 
+			              <div class="form-group">
+							<label form="email">Password</label>
+							<input type="password" ng-model='password' class="form-control" required>
+			              </div>                    
 
-	  		  </div>
-	  		
+						   <input type='submit' id='btnEnviar' value="Iniciar sesión" 
+				  						ng-click='iniciar_sesion()' class='btn btn-primary'> 
+			  		</div>
+				</div>
 	  		</form>
  		</div>
 	</section>
