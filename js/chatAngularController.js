@@ -45,4 +45,11 @@ angular.module('chatusb', [])
 			objFirebase.unauth();
 		}
 
+
+		$interval( function(){
+	    	$scope.$apply();
+	 	}, 3500 );
+
+
+
 	});
