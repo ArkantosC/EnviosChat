@@ -64,6 +64,22 @@ CLOUD:
 			- navegador internet y servicios.
 			(seguridad es bueno pero el problema es demostrar la buena seguridad.)
 
+SAAS: 
+* metas: admon del software sea facil. servicio globales. una sola instancia de software para multiples usuarios. modelos flexibles de pago.
+
+
+Proyecto Final:
+	- código de la aplicación -- entrega como queramos.
+	- diseño de arquitectura de software:
+				- SAD:   
+						- (4+1, V&B, C4) cualquiera           (vistas <= 4)
+						- documentación de cada vista utilizada.
+						- justificación de diseño:
+								- tacticas
+								- patrones y estilos utilizados.
+
+						*  va a calificar coherencia del modelo y código.
+
 
 
 
