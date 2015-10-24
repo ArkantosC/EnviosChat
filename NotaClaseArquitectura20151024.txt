@@ -1,0 +1,81 @@
+
+Continuaciòn de táctica:
+
+- Disponibilidad
+	* proporción que el sistema està en ejecución el 99.98%
+
+	*registro dinamico de componenentes: Evitar el shutdown a la aplicaciòn para actualizar la aplicacion. 
+
+
+Recurperabilidad y disponibldad estan muy relacionados.
+
+proccess monitor para asegurar la disponiblidad del sistemas
+
+- Escalabilidad:
+ *  cuando sin cambios en el hardware se cambia la configuracion del software para mas capacidad de 
+     almacenamiento
+     	- requerimientos de carga
+     	- conexiones simultanes.
+     	- tamaño de los datos
+     	- despliegue. 
+
+     aumento de usuarios aumenta todos los anteriores. 
+
+    Paralelisaciòn, una sola tarea la divides entre varios hilojos de ejecución.
+    
+
+ Modificabilidad: Se debe poder indentificar donde se debe realizar el cambio, y poder realizarlo!
+
+ como anticipar los cambios: conocer el negocio. 
+
+ - Portabilidad:
+ - Reusabilidad:
+ 	* es un forma particular de modificabilidad.
+ 	* el componente debe tener bajo acomplamiento
+
+- Integrabilidad: Piezas de desarrollo que trabajen juntas, que tan facil se puede acoplar a otro sistema depende
+  de la arquitectura que se tengas.
+
+- Testeabilidad: el sofware debe poder mostrar sus defectos. (tacticas logs)
+
+
+ATRIBUTOS DE CALIDAD DEL NEGOCIO
+	* Caracteristicas Costo y tiempo, comercializacion. 
+
+
+ESTILOS DE TIPOS DE ASIGNACION
+	* Despliegue
+	* De instalacion
+	* Asignación de trabajo
+
+
+ESTILOS Y PATRONES:
+
+	- CAPAS: "Entre mas capas, mas posibilades de despliegue se tiene"
+
+- Tipos de vista C&C (componentes y conectores):
+	
+
+CLOUD:
+	* Atributos de calidad:	
+			- escalabilidad
+			- garantia de calidad de servicio.
+			- precio, pga por lo que se consume.
+			- navegador internet y servicios.
+			(seguridad es bueno pero el problema es demostrar la buena seguridad.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+Lista de requisitos
+
+1. funcionales
+2.no funcionalesnaesl
+
+no funcionales identificar las restricciones y los atributos de calidad.
+si no esta la cuantificacion y cualificativo entonces definirlo.
+
+priorizar requisitos usando una tecnica
+
+
+no se hace hoy:
+realizar matrix:
+
+ req funcional  ! Modificabilidad  ! seguridad ! performance .....
+  RF1					X
+  FR2					X				X			X
+  ..
+  RFn												X
+
+  ___________________________________
+
+Proyecto final:
+Proponer la solucion 
+ - facil mente desplegar el servicio
+ - escalabilidad
+
+ en la prueba de cocepto:
+ 		ej: un login como se contruye, que tenga escalabilidad, etc. 
+
+ 	que un servicio esta fallando no falle el otro servicio
+
+ estan abiertos con una solucion en la nube. ejemplo una de google.
+
+Se podria hacer un proyecto web, movil, segun se puede proponer.
+
+diseño arquitectual del cloud computer
+
+investigar hacerca de las plataformas:  console.developers.google.
+
+"necesitan escalabilidad" - Una de las mejores es usar cloud
+
+recomendacion plataforma como servicio
+
+Plugin en eclipse: ad engine
+
+ejemplo para exponer servicios: github.com/inturiksas/pollappback
+
+buscar estilo de arquitectura microservicios
+
+
+Temas de la Proxima Semana:
+	- Método de diseño.
+	- Tecticas de arquitectura.
+	- Patrones y los estilos
+	- Microservicios
+
+Taller Envios S.A
+	- Codigo (OK)
+	- Documentos de requisitos y atributos que se vio en clase del sabado. (Sábado 24)
+
+Taller UML
+	- Ejericio de Contar saludos:
+			- Vista Estatica (OK)
+
+Proyecto Final Medimos S.A  ( 1 Noviembre Domingo)
+	- Codigo
+	- SAD -> (4+1, v&b, C4)
+
+Controles de lectura
+	- ADD (OK)
+	- 4+1 (OK)
+	- Cloud (CloudStandards.pdf   The role of standard in cloud computing interoperability)
+
+
+
+
